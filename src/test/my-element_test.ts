@@ -11,6 +11,7 @@ import {html} from 'lit/static-html.js';
 
 suite('my-element', () => {
   test('is defined', () => {
+    console.log('test');
     const el = document.createElement('my-element');
     assert.instanceOf(el, MyElement);
   });
